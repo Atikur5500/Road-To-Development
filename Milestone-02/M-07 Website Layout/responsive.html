@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Web Layout</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+
+        body {
+            font-family: 'JetBrains Mono', monospace;
+            word-spacing: -5px;
+            letter-spacing: -1px;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .card{
+            border: 1px solid green;
+            padding: 10px;
+        }
+        .card h3, p {
+            text-align: center;
+        }
+        .card p{
+            text-align: justify;
+        }
+        .card img{
+            width: 100%;
+        }
+        @media screen and (max-width: 576px) {
+            .container{
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                background-color: palevioletred;
+            }
+        }
+        @media screen and (min-width: 577px) and (max-width: 992px) {
+            .container{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                background-color: peru;
+            }
+        }
+        @media screen and (min-width: 993px) and (max-width: 1200px){
+            .container{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                background-color: cadetblue;
+            }
+        }
+       
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="Image/1022.jpg" alt="">
+            <h3>Mountain</h3>
+            <p>Price: $200</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dolor temporibus, eum alias sed labore sequi adipisci nam error amet!</p>
+        </div>
+        <div class="card">
+            <img src="Image/1022.jpg" alt="">
+            <h3>Mountain</h3>
+            <p>Price: $200</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dolor temporibus, eum alias sed labore sequi adipisci nam error amet!</p>
+        </div>
+        <div class="card">
+            <img src="Image/1022.jpg" alt="">
+            <h3>Mountain</h3>
+            <p>Price: $200</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dolor temporibus, eum alias sed labore sequi adipisci nam error amet!</p>
+        </div>
+        <div class="card">
+            <img src="Image/1022.jpg" alt="">
+            <h3>Mountain</h3>
+            <p>Price: $200</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dolor temporibus, eum alias sed labore sequi adipisci nam error amet!</p>
+        </div>
+        <div class="card">
+            <img src="Image/1022.jpg" alt="">
+            <h3>Mountain</h3>
+            <p>Price: $200</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dolor temporibus, eum alias sed labore sequi adipisci nam error amet!</p>
+        </div>
+        <div class="card">
+            <img src="Image/1022.jpg" alt="">
+            <h3>Mountain</h3>
+            <p>Price: $200</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dolor temporibus, eum alias sed labore sequi adipisci nam error amet!</p>
+        </div>
+        <div class="card">
+            <img src="Image/1022.jpg" alt="">
+            <h3>Mountain</h3>
+            <p>Price: $200</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dolor temporibus, eum alias sed labore sequi adipisci nam error amet!</p>
+        </div>
+        <div class="card">
+            <img src="Image/1022.jpg" alt="">
+            <h3>Mountain</h3>
+            <p>Price: $200</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dolor temporibus, eum alias sed labore sequi adipisci nam error amet!</p>
+        </div>
+        <div class="card">
+            <img src="Image/1022.jpg" alt="">
+            <h3>Mountain</h3>
+            <p>Price: $200</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dolor temporibus, eum alias sed labore sequi adipisci nam error amet!</p>
+        </div>
+        <div class="card">
+            <img src="Image/1022.jpg" alt="">
+            <h3>Mountain</h3>
+            <p>Price: $200</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dolor temporibus, eum alias sed labore sequi adipisci nam error amet!</p>
+        </div>
+        <div class="card">
+            <img src="Image/1022.jpg" alt="">
+            <h3>Mountain</h3>
+            <p>Price: $200</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dolor temporibus, eum alias sed labore sequi adipisci nam error amet!</p>
+        </div>
+        <div class="card">
+            <img src="Image/1022.jpg" alt="">
+            <h3>Mountain</h3>
+            <p>Price: $200</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dolor temporibus, eum alias sed labore sequi adipisci nam error amet!</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

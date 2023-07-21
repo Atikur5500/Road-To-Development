@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+body{
+   font-family: 'JetBrains Mono', monospace;
+   box-sizing: border-box;
+   letter-spacing: -1px;
+   word-spacing: -3px;
+}
+.heading-section{
+    background-image: url('../image/1022.jpg');
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: 100%;
+    background-repeat: no-repeat;
+}
+.title{
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    color: #9a9a9a;
+    font-size: 32px;
+    text-shadow: 2px 2px 5px lightskyblue;
+}
+.description{
+    position: absolute;
+    top: 26%;
+    left: 10%;
+    padding: 10px;
+    font-size: 16px;
+    /* box-shadow: 2px 0px px #9a9a9a; */
+}
+.login-form{
+    width: 60%;
+    margin: 0 auto;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    /* box-shadow: 2px 0px 2px darkslategray; */
+    padding: 20px;
+    background-color: #cccfeba9;
+}
+.form-title{
+    margin-left: 5%;
+    color: darkslategray;
+}
+input[type="email"], input[type="password"]{
+    margin-left: 5%;
+    background-color: rgb(230, 227, 221);
+    width: 65%;
+    height: 2.5rem;
+    padding-left: 15px;
+    font-size: 1.1rem;
+    border: none;
+}
+.button{
+    margin-top: 15px;
+    margin-left: 5%;
+    padding: 10px 15px;
+    color: white;
+    font-weight: bold;
+    background-color: darkslategray;
+    border: none;
+    border-radius: 5px;
+}
+span>a {
+    margin-left: 35px;
+}
+
+.container{
+    border: 1px solid tomato;
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* display: none; */
+    /* justify-content: space-evenly; */
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    margin: 20px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.box1{
+    margin: 25px 50px 75px 100px;
+    /*  top: 25px
+        right: 50px
+        bottom: 75px
+        left: 100px
+     */
+}
+.box2{
+    margin: 25px 50px 75px;
+    /*  top: 25px
+        right,left: 50px
+        bottom: 75px 
+     */
+    }
+    .box3{
+        margin: 25px 50px;
+        /*  top,bottom: 25px
+            right,left: 50px
+         */  
+}
+.box4{
+    margin: 25px;
+    /* around: 25px */
+}
+
+.container_1{
+    border: 1px solid green;
+    width: 60%;
+    height: 300px;
+    margin: 10px auto;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.box_1{
+    width: 100px;
+    height: 100px;
+    background-color: #9a9a9a;
+    margin: 10px 120px;
+    /* padding: 10px 50px; */
+}

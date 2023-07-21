@@ -1,0 +1,38 @@
+*{
+    font-family: 'JetBrains Mono';
+    letter-spacing: -1px;
+    word-spacing: -5px;
+}
+:root{
+    --primary-color: orangered;
+    --p-font-size: 24px;
+    --title: 32px;
+    --border: 1px solid red;
+    --padding-sm: 5px;
+    --padding-md: 10px;
+    --padding-xl: 20px;
+    --padding-xxl: 30px;
+    --mt: 50px;
+}
+.container{
+    border: 1px solid green;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.content-item{
+    border: 1px solid red;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+.content-title{
+    border: var(--border);
+    padding: var(--padding-sm);
+}
+
+.content-item-2{
+    border: var(--border);
+    margin-top: var(--mt);
+    padding: var(--padding-xl);
+}

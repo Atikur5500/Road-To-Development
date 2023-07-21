@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+     initial-scale=1.0">
+     <link rel="stylesheet" href="styles/style.css">
+    <title>More About HTML</title>
+</head>
+<body>
+   <header>
+    <nav>
+        <ul>
+            <li><a href="table.html" target="_blank">Table</a></li>
+            <li><a href="form.html " target="_blank">Form</a></li>
+            <li><a href="audio.html" target="_blank">Audio</a></li>
+            <li><a href="table.html" target="_blank">Blog</a></li>
+        </ul>
+    </nav>
+    <h3>Welcome to More  About HTML Module!</h3>
+    <!-- details, summary and address tag -->
+    <details>
+        <summary>MY Address</summary>
+        <address>
+            Name: Mir Atikur Rahman <br>
+            Age: 24 <br>
+            Profession: Web Developer <br>
+            Nationality: Bangladeshi 
+        </address>
+    </details>
+    <!-- Progress bar -->
+    <label for="proficiency">My Proficiency</label><br>
+    <meter id="progress" value="0.8">100%</meter>
+    <br><br>
+   </header>
+   <main>
+     <!-- Audio Tag -->
+     <audio src="asset/audio.wav" controls class="audio-player"></audio>
+     <br><br>
+     <!-- Video Tag -->
+     <!-- <video src="asset/video.mp4" controls width="400px" height="400px"></video> -->
+     <!-- Form -->
+     <form action="">
+         <label for="firstname">FirstName:
+             <input type="text" name="" id="firstname" placeholder="write your first name">
+         </label>
+         <label for="lastname">LastName:
+             <input type="text" name="" id="lastname" placeholder="write your last name">
+         </label>
+         <label for="email">Email:
+             <input type="email" name="" id="email" placeholder="enter your email" required>
+         </label>
+         <label for="password">Password:
+             <input type="password" name="" id="password" placeholder="enter your password">
+         </label>
+         <label for="phone">Phone: 
+             <input type="tel" name="" id="phone" placeholder="write your phone number">
+         </label>
+         <label for="select">Select Your Country:
+            <select name="" id="select">
+             <option value="bd">Bangladesh</option>
+             <option value="in">India</option>
+             <option value="pak">Pakistan</option>
+             <option value="afg">Afghanistan</option>
+             <option value="sl">Sri Lanka</option>
+            </select>
+         </label>
+         <label for="gender">Select Your Gender:
+             <input type="radio" name="gender" id="gender">Male
+             <input type="radio" name="gender" id="gender">Female
+             <input type="radio" name="gender" id="gender">Custom
+         </label>
+         <fieldset>
+             <legend>Chose Favorite Food</legend>
+             <input type="checkbox" name="food" id="Pizza">Pizza
+             <input type="checkbox" name="food" id="burger">Burger
+             <input type="checkbox" name="food" id="kacchi">Kacchi
+             <input type="checkbox" name="food" id="juice">Juice
+         </fieldset>
+         <input type="reset" value="reset">
+         <input type="submit" value="submit">
+     </form>
+ 
+     <!-- It's time to move Table -->
+     <table>
+         <caption>Employee Salary Data</caption>
+        <thead>
+         <tr>
+             <th>No</th>
+             <th>Firstname</th>
+             <th>Lastname</th>
+             <th>Salary</th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+             <td>01</td>
+             <td>John</td>
+             <td>Doe</td>
+             <td>$4000</td>
+         </tr>
+         <tr>
+             <td>02</td>
+             <td>Bill</td>
+             <td>Gates</td>
+             <td>$5000</td>
+         </tr>
+         <tr>
+             <td>03</td>
+             <td>Elon</td>
+             <td>Musk</td>
+             <td>$7000</td>
+         </tr>
+         <tr>
+             <td>04</td>
+             <td>Mark</td>
+             <td>Zuckerburg</td>
+             <td>$4500</td>
+         </tr>
+         <tr>
+             <td>05</td>
+             <td>Warren</td>
+             <td>Buffet</td>
+             <td>$6000</td>
+         </tr>
+        </tbody>
+        <tfoot>
+         <tr>
+            <td colspan="2">Total Employee: 05</td>
+            <td colspan="2">Total Salary: $26500</td>
+         </tr>
+        </tfoot>
+     </table> 
+   </main>
+   <footer>
+
+   </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

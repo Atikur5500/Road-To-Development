@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+   font-family: 'JetBrains Mono', monospace;
+   word-spacing: -2px;
+   letter-spacing: -1px;
+}
+form{
+    border: 1px solid blue;
+    width: 300px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #2a2a69;
+    box-shadow: 0px 0px 50px 2px  skyblue;
+}
+.form-title{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+label{
+    display: block;
+    padding: 10px;
+}
+input[type="text"],[type="email"],[type="password"]{
+    width: 100%;
+    height: 40px;
+    font-family: cursive;
+    padding-left: 10px;
+    border: none;
+    border-radius: 5px;
+}
+input[type="checkbox"]{
+    border-radius: 10px;
+}
+span{
+    color: white;
+    font-family: cursive;
+    width: fit-content;
+}
+.btn{
+    color: white;
+    margin-left: 60%;
+    background-color: #60ae2e;
+    padding: 5px 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
