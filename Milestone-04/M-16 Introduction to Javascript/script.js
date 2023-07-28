@@ -44,23 +44,33 @@
 //     var grams = kilograms * 1000;
 //     return grams;
 //   }
-  
 
-//   var weightInKg = 2.5;
+//   var weightInKg = 2.5; I have non name
 //   var weightInGrams = kgToGram(weightInKg);
 //   console.log(weightInKg + " kilograms is equal to " + weightInGrams + " grams.");
-  
-
 
 const inchToFeet = feet =>{
     const myHeight = feet / 12;
     return myHeight;
 }
-
-const height = 5.10;
+// What is javascript
+const height = 5.10;            
 console.log(inchToFeet(height))
 
+const name = 'Mir Atikur Rahman';
+console.log(name)
+let person = {
+    firstName:'Atikur',
+    lastName: 'Rahman',
+    age: 24,
+    village: 'Kola',
+    Thana: 'Shirajdikan',
+    District: 'Munshigonj',
+    passion: 'Web Development'
+}
+
+console.log(person.passion)
+console.log(person.District)
 
 
-
-
+// What is javascript?
