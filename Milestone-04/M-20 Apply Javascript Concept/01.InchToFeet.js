@@ -55,5 +55,3 @@ let pcWeight = 6800;
 let totalWeight = gramToKilogram(pcWeight);
 console.log(totalWeight, 'Kg')
 
-
-

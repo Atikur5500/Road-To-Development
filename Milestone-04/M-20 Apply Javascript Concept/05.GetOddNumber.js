@@ -40,7 +40,6 @@ const findOddNumbers = numbers => {
 }
 
 
-
 const myNumbersArray = [5, 13, 24, 44, 45, 67, 76, 88, 93];
 const find = findOddNumbers(myNumbersArray)
 console.log(find)
