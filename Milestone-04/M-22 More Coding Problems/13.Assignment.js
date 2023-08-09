@@ -9,8 +9,7 @@ function cubeNumber(number) {
     }
 }
 
-let getResult = cubeNumber(3);
-console.log(getResult);
+
 
 function matchFinder(string1, string2) {
     if (typeof string1 !== 'string' || typeof string2 !== 'string') {
@@ -22,9 +21,6 @@ function matchFinder(string1, string2) {
 
 }
 
-const string1Result = 'hello';
-const string2Result = 'ell';
-console.log(matchFinder(string1Result, string2Result))
 
 
 function sortMaker(arr) {
@@ -43,7 +39,8 @@ function sortMaker(arr) {
         }
     }
 }
-console.log(sortMaker([9, 20]))
+
+
 
 function findAddress(obj) {
     if (typeof obj !== 'object') {
@@ -58,23 +55,18 @@ function findAddress(obj) {
     }
 
 }
-let newObj = {
-    street: 10,
-    // house: '15A',
-    // society: 'Earth Perfect'
-}
-console.log(findAddress(newObj))
 
 
-function canPay(money, chipsPrice) {
-    if (money.length === 0) {
-        return 'Enter your money!'
+
+function canPay(changeArray,  totalDue) {
+    if (changeArray.length === 0) {
+        return 'Enter your changeArray!'
     }
     let sum = 0;
-    for (let i = 0; i < money.length; i++) {
-        sum += money[i];
+    for (let i = 0; i < changeArray.length; i++) {
+        sum += changeArray[i];
     }
-    return sum >= chipsPrice;
+    return sum >=  totalDue;
 }
 
-console.log(canPay([1, 5, 1], 10))
+
