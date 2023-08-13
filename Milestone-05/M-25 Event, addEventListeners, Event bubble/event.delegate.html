@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Repository Delete</title>
+</head>
+
+<body style="font-family: JetBrains Mono; word-spacing: -5px; letter-spacing: -1px;" id="body">
+
+    <section>
+        <ul id="list-container">
+            <h1>List Item</h1>
+            <li class="item">Lorem, ipsum.</li>
+            <li class="item">Tempora, corporis.</li>
+            <li class="item">Quod, in?</li>
+            <li class="item">Quo, vitae.</li>
+            <li class="item">Ipsum, sunt.</li>
+            <li class="item">Rerum, unde?</li>
+        </ul>
+        <div>
+            <input type="text" id="input-field">
+            <button id="add-item">Add Item</button>
+        </div>
+    </section>
+
+    <script>
+        document.getElementById('list-container').addEventListener('click', function(event){
+            event.target.parentNode.removeChild(event.target)
+        })
+        /* document.getElementById('add-item').addEventListener('click', function(){
+            const listContainer = document.getElementById('list-container');
+            const li = document.createElement('li');
+            li.classList.add('item');
+            li.innerText = 'Add new item'
+            listContainer.appendChild(li)
+        }) */
+        document.getElementById('add-item').addEventListener('click', event =>{
+            const inputField = document.getElementById('input-field');
+            const inputText = inputField.value;
+            const listContainer = document.getElementById('list-container');
+            const li = document.createElement('li');
+            li.classList.add('item');
+            li.innerText = inputText;
+            listContainer.appendChild(li);
+            inputField.value = '';
+        })
+    </script>
+</body>
+
+</html>

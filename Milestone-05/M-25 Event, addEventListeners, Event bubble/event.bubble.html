@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Repository Delete</title>
+</head>
+
+<body style="font-family: JetBrains Mono; word-spacing: -5px; letter-spacing: -1px;" id="body">
+
+   <div id="list-container">
+    <ul id="list-ul">
+        <h1>List Item</h1>
+        <li id="item-1">Lorem, ipsum.</li>
+        <li id="item-2">Tempora, corporis.</li>
+        <li id="item-3">Quod, in?</li>
+        <li id="item-4">Quo, vitae.</li>
+        <li id="item-5">Ipsum, sunt.</li>
+        <li id="item-6">Rerum, unde?</li>
+    </ul>
+   </div>
+
+   <script>
+        document.getElementById('item-2').addEventListener('click', function(event){
+            console.log('Item-2 Clicked')
+            event.stopImmediatePropagation()
+            // event.stopPropagation()
+        })
+        document.getElementById('item-2').addEventListener('click', function(event){
+            console.log('Item-3 Clicked')
+        })
+        document.getElementById('item-2').addEventListener('click', function(event){
+            console.log('Item-4 Clicked')
+        })
+        document.getElementById('item-2').addEventListener('click', function(event){
+            console.log('Item-5 Clicked')
+        })
+        document.getElementById('list-ul').addEventListener('click', function(event){
+            console.log('list-ul Clicked')
+        })
+        document.getElementById('list-container').addEventListener('click', function(event){
+            console.log('list-container Clicked')
+        })
+        document.getElementById('body').addEventListener('click', function(event){
+            console.log('body Clicked')
+        })
+   </script>
+</body>
+
+</html>
+
+document.getElementById('add-item').addEventListener('click', function(event){
+const listContainer = document.getElementById('list-container');
+const li = document.createElement('li');
+li.innerText = 'Add new Item';
+li.classList.add('item')
+listContainer.appendChild(li)
+})
+document.getElementById('list-container').addEventListener('click', function(event){
+event.target.parentNode.removeChild(event.target)
+});
