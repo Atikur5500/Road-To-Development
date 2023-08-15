@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Login Page</title>
+</head>
+
+<body style="font-family: JetBrains Mono; word-spacing: -5px; letter-spacing: -1px;">
+
+    <section class="bg-slate-500 w-10/12 mx-auto mt-24 p-10 lg:p-24">
+        <h1 class="text-3xl md:text-3xl text-white font-bold mt-10 lg:mt-0">
+            Please Login
+        </h1>
+        <div class="flex flex-col gap-5 mt-5">
+            <input id="user-email" type="email" placeholder="Enter your email"
+                class=" md:w-3/4 h-10 rounded-sm px-2  md:px-5 md:text-lg" required>
+            <input id="user-password" type="password" placeholder="Enter your password"
+                class="md:w-3/4 h-10 rounded-sm px-2  md:px-5 md:text-lg" required>
+            <div>
+                <button
+                    class="bg-slate-700 hover:bg-slate-800 transition-all text-white text-xl font-bold px-8 py-3 my-3"
+                    id="submit-button">Submit</button>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+    <script src="./Javascript/login.js"></script>
+</body>
+
+</html>
